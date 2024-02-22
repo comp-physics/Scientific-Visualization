@@ -9,22 +9,28 @@ Paraview's default background color is instantly recognizeable to anyone who use
 While there's nothing wrong with the default background color, changing it can indicate to others that you've put time and effort into making nice visualizations, and will often look better.
 For all but a small subset of visualizations, a black or white background will look much nicer than the default gray background.
 To change the background color, scroll to the bottom of the properties tab and unselect Use Color Palette for Background shown below.
+
 ![image](../Resources/threeStepsToNiceVisualization/A.png)
-This will automatically change the background color to white.
-To select a color other than white, click the background dropdown shown below and use the resulting popup window to select your desired color.
+
+To select a color, click the background dropdown shown below and use the resulting popup window to select your desired color.
+
 ![image](../Resources/threeStepsToNiceVisualization/B.png)
 
 ## Remove the orientation axis
 The orientation axis is shown by default in the lower left hand corner of the reder view.
 In many cases, it is not relevant to visualization and can be removed.
 To do this, unselect Orientation Axis Visibility in the properties tab as shown below.
+
 ![image](../Resources/threeStepsToNiceVisualization/C.png)
 
 ## Remove the colorbar
 Knowing the values of the color bar is not always pertinent to scientific visualization.
 If this is the case, it can be removed, yielding a cleaner visulation.
 This can be done by changing the visibility toggle in the properties tab as shown below.
+
 ![image](../Resources/threeStepsToNiceVisualization/D.png)
+
 Note that each visible item in the pipeline broswer can have its color bar toggled on or off individually.
 The render view after make these three changes is shown below.
+
 ![image](../Resources/threeStepsToNiceVisualization/E.png)
