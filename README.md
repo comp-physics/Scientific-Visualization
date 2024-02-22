@@ -8,9 +8,13 @@ I've also assumed that anyone using this collection has the most recent version 
 ### The Basics
 [Three Steps to Nice Visualization](Tutorials/three-steps-to-nice-visualization.md)
 
+[Creating an Annimation](Tutorials/creating-an-annimation.md)
+
+### Analyzing Data
+[Contours](Tutorials/contours.md)
+
 ### Volume Rendering
 Coming soon!
+
 ### Ray Tracing
-Coming soon!
-### Analyzing Data
 Coming soon!
