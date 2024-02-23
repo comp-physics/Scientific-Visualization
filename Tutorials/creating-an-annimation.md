@@ -1,6 +1,6 @@
 # Creating an Annimation
 Annimations (videos) are a nice way to show the evolution of transient data over time.
-This tutorial assumes that you have already opened a dataset that has multiple snapshots in time, selected a colorbar for your data, and performed the steps in [Three Steps to Nice Visualization](three-steps-to-nice-visualization.md).
+This tutorial assumes that you have already opened a dataset that has multiple snapshots in time, selected a colorbar for your data, and performed the steps in [Three Steps to Nicer Visualization](three-steps-to-nice-visualization.md).
 
 ## Step 1 - Frame your data
 If  your data doesn't fill the render view in Paraview, it won't fill the video frame in your video.
