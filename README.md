@@ -18,3 +18,5 @@ Coming soon!
 
 ### Ray Tracing
 Coming soon!
+
+Have something to contribute? See the contributing guidelines [Here](contributing.md)
