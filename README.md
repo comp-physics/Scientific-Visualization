@@ -10,12 +10,9 @@ I've also assumed that anyone using this collection has the most recent version 
 
 [Creating an Annimation](Tutorials/creating-an-annimation.md)
 
-### Analyzing Data
-[Contours/Isosurfaces](Tutorials/contours.md)
-
 ### General Visualization
 
-Coming soon!
+[Contours/Isosurfaces](Tutorials/contours.md)
 
 ### Volume Rendering
 Coming soon!
