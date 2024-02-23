@@ -6,7 +6,7 @@ I've also assumed that anyone using this collection has the most recent version 
 
 ## Table of Contents
 ### The Basics
-[Three Steps to Nice Visualization](Tutorials/three-steps-to-nice-visualization.md)
+[Three Steps to Nicer Visualization](Tutorials/three-steps-to-nice-visualization.md)
 
 [Creating an Annimation](Tutorials/creating-an-annimation.md)
 
