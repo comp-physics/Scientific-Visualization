@@ -15,7 +15,7 @@ I've also assumed that anyone using this collection has the most recent version 
 
 ### General Visualization
 
-Coming soon~
+Coming soon!
 
 ### Volume Rendering
 Coming soon!
