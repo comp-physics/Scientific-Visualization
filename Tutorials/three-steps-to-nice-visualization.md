@@ -1,4 +1,4 @@
-# Three Steps to Nice Visualization
+# Three Steps to Nicer Visualization
 Advanced features like opacity mapping, ray tracing, and volume rendering can all be used to make nice renderings of scientific data.
 However, there are three simple things yo   u can do to turn the default settings in Paraview into visualizations that are nice enough to share with the outside world.
 This short set of tips will show you how to do this and get you started on making nice visualizations of scientific data.
