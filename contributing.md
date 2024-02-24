@@ -11,3 +11,5 @@ The following guidelines ensure uniformity of the resources in this repository.
 - Black or white backgrounds should be used in all screenshots (no Paraview default background color please)
 
 - Boxes with 3pt borders and an RGB value of (255,0,0) should be used to highlight regions in screenshots
+
+- Screenshots should be placed in `Resources/<tutorial-name>` and named `A.png`, `B.png`,...
