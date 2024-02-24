@@ -13,3 +13,5 @@ The following guidelines ensure uniformity of the resources in this repository.
 - Boxes with 3pt borders and an RGB value of (255,0,0) should be used to highlight regions in screenshots
 
 - Screenshots should be placed in `Resources/<tutorial-name>` and named `A.png`, `B.png`, etc.
+
+- All tutorials should be listed in the table of contents in the [README](README.md)
