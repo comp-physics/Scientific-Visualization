@@ -6,7 +6,7 @@ This short set of tips will show you how to do this and get you started on makin
 To follow along with this tutorial, start by opening the Paraview state file `Resources/cubeAndSphere.pvsm` in the most recent version of Paraview.
 
 ## Change the default background color
-Paraview's default background color is instantly recognizeable to anyone who uses the software regularly.
+Paraview's default background color is instantly recognizable to anyone who uses the software regularly.
 While there's nothing wrong with the default background color, changing it can indicate to others that you've put time and effort into making nice visualizations, and will often look better.
 For all but a small subset of visualizations, a black or white background will look much nicer than the default gray background.
 To change the background color, scroll to the bottom of the properties tab and unselect Use Color Palette for Background shown below.
