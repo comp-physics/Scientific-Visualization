@@ -1,8 +1,10 @@
-# Creating an Annimation
-Annimations (videos) are a nice way to show the evolution of transient data over time.
-This tutorial assumes that you have already opened a dataset that has multiple snapshots in time, selected a colorbar for your data, and performed the steps in [Three Steps to Nicer Visualization](three-steps-to-nice-visualization.md).
+# Creating an Animation
+
+Animations (videos) are a nice way to show the evolution of transient data over time.
+This tutorial assumes that you have already opened a dataset that has multiple snapshots in time, selected a color bar for your data, and performed the steps in [Three Steps to Nicer Visualization](three-steps-to-nice-visualization.md).
 
 ## Step 1 - Frame your data
+
 If  your data doesn't fill the render view in Paraview, it won't fill the video frame in your video.
 The easiest way to make your data fill the frame is to click the Reset Camera Closest or Zoom Closest to Data buttons.
 
@@ -19,22 +21,23 @@ These buttons are to the top and right of the render view as shown below.
 ![image](../Resources/creatingAnAnnimation/C.png)
 
 Once you have your data framed in a way you like, move on to Step 2 to save screenshots of each snapshot in your data.
-An example of well framed data is shown below.
+An example of well-framed data is shown below.
 
 ![image](../Resources/creatingAnAnnimation/D.png)
 
 ## Step 2 - Export Snapshots
+
 Once your data is framed, you can save screenshots by clicking `file -> Save Annimation...`.
-Once you give a filename, the following popup appears with a few usefull options.
+Once you give a filename, the following popup appears with a few useful options.
 
 <img src="../Resources/creatingAnAnnimation/E.png" alt="drawing" width="50%"/>
 
 The following options let you control how Paraview saves snapshots:
 
-- Image Resolution: As the name implies, this is the resolution the snapshots are saved at.
-To preserve your well framed data, the ratio of pixels in each direction must stay the same.
+- Image Resolution: As the name implies, this is the resolution of the snapshots.
+To preserve your well-framed data, the ratio of pixels in each direction must stay the same.
 It is also helpful to use an even number of pixels in both directions.
-This makes post processing the images created by Paraview easier.
+This makes post-processing the images created by Paraview easier.
 
 - Override Color Palette: This gives you a few options for background colors.
 
