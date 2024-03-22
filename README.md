@@ -28,3 +28,6 @@ Coming soon!
 Coming soon!
 
 Have something to contribute? See the contributing guidelines [here.](contributing.md)
+
+## Additional Resources
+Additional resources can be found in Paraview's documentation [Here](https://docs.paraview.org/en/latest/)
