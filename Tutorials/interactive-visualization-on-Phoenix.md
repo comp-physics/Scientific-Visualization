@@ -16,7 +16,7 @@ Now that you have the binary on Phoenix, you'll need to download Paraview 5.11 o
 Paraview binaries can be downloaded here (https://www.paraview.org/download/).
 Make sure to select `v5.11` from the version drop down bar and install a `5.11.0` version of Paraview.
 
-## Step 2 - Customize the Bash Script
+## Step 2 - Customizing the Bash Script
 While all of the options for the bash script could be passed as command line arguments, it saves time to hard code certain options that are unlikely to change.
 The following is a list of required and suggested updates to make to `pace-paraview-server`.
 
