@@ -39,7 +39,7 @@ If you updated line 51 of `pace-paraview-server` to reflect a default account, t
 
 - `--mem` specifies the memory per node to request (default is to request all memory)
 
-- `--gres` specifes the GPU resources to request. 
+- `--gres` specifies the GPU resources to request. 
 These instructions have only been verified to work with `--gres gpu:V100:2`.
 
 - `--time` specifies the time limit for your job.
@@ -49,7 +49,7 @@ Once you run `./pace-paraview-server <options>`, you will see
 
 ```
 Submitted batch job <job #>
-Wating for ParaView server to start. This may take several minutes  ...
+Waiting for ParaView server to start. This may take several minutes  ...
 ```
 
 in your terminal.
