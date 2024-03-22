@@ -15,6 +15,8 @@ I've also assumed that anyone using this collection has the most recent version 
 
 ### General Visualization
 
+[Interactive Visualization on Phoenix](Tutorials/interactive-visualization-on-Phoenix.md)
+
 [Contours/Isosurfaces](Tutorials/contours.md)
 
 ### Volume Rendering
