@@ -8,7 +8,7 @@ Here's an example visualization of inviscid flow over an airfoil from a simulati
 
 <p align="center">
     <img src="Resources/airfoil-animated.png" alt="Airfoil Example" width="700"/><br/>
-    Example MFC simulation (<a href="https://vimeo.com/917305340/c05fd414c8?share=copy" target="_blank">full video</a>)
+    Example Visualization (<a href="https://vimeo.com/917305340/c05fd414c8?share=copy" target="_blank">full video</a>)
 </p>
 
 ## Table of Contents
