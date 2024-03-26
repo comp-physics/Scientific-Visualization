@@ -19,7 +19,11 @@ Here's an example visualization of inviscid flow over an airfoil from a simulati
 
 [Creating an Animation](Tutorials/creating-an-annimation.md)
 
+### Remote Visualization
+
 [Interactive Visualization on Phoenix](Tutorials/interactive-visualization-on-Phoenix.md)
+
+### Paraview  Filters
 
 [Contours/Isosurfaces](Tutorials/contours.md)
 
