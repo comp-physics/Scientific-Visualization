@@ -4,6 +4,12 @@ This repository contains a collection of useful Paraview skills for scientific v
 I've used the default MacOS keyboard shortcuts in this collection for brevity.
 If you are using a different operating system, the corresponding shortcuts can easily be found via a quick Google search.
 I've also assumed that anyone using this collection has the most recent version of Paraview.
+Here's an example visualization of inviscid flow over an airfoil from a simulation run with 2.25 billion grid cells.
+
+<p align="center">
+    <img src="res/airfoil-animated.png" alt="Airfoil Example" width="700"/><br/>
+    Example MFC simulation (<a href="https://vimeo.com/917305340/c05fd414c8?share=copy" target="_blank">full video</a>)
+</p>
 
 ## Table of Contents
 
