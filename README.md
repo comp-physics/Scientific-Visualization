@@ -7,13 +7,11 @@ I've also assumed that anyone using this collection has the most recent version 
 
 ## Table of Contents
 
-### The Basics
+### General Visualization
 
 [Three Steps to Nicer Visualization](Tutorials/three-steps-to-nice-visualization.md)
 
 [Creating an Animation](Tutorials/creating-an-annimation.md)
-
-### General Visualization
 
 [Interactive Visualization on Phoenix](Tutorials/interactive-visualization-on-Phoenix.md)
 
