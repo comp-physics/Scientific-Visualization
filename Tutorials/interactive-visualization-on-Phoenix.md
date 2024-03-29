@@ -45,18 +45,21 @@ These instructions have only been verified to work with `--gres gpu:V100:2`.
 - `--time` specifies the time limit for your job.
 This option is optional and defaults to whatever is set on line 52 of `pace-paraview-server`.
 
-Once you run `./pace-paraview-server <options>`, it'll take a bit to start up. In the meantime, you'll see the below message:
+Once you run `./pace-paraview-server <options>`, it'll take a bit to start up. 
+In the meantime, you'll see the below message:
 
 ```
 Submitted batch job <job #>
 Waiting for ParaView server to start. This may take several minutes  ...
 ```
 
-When it's done initializing, you should see a dialogue with some recommended next steps numbered 1-4. Below is a slightly altered version of that dialogue:
+When it's done initializing, you should see a dialogue with some recommended next steps numbered 1-4. 
+Below is a slightly altered version of that dialogue:
 
 
 1) Create the appropriate port forwarding for your local ParaView session to connect with.
-* On your local machine, run the following from a terminal where `nodeIdentifier` is the remote node running the ParaView server process (given in the output of the batch script) and `paceSystemIdentifier` is the name of the PACE system (however this is configured with your `.ssh/config`). This terminal session must not be killed for the duration of your ParaView session as it's maintaining the port forwarding.
+* On your local machine, run the following from a terminal where `nodeIdentifier` is the remote node running the ParaView server process (given in the output of the batch script) and `paceSystemIdentifier` is the name of the PACE system (however this is configured with your `.ssh/config`).
+* This terminal session must not be killed for the duration of your ParaView session as it maintains the port forwarding.
     * `ssh -L 8722:<nodeIdentifier>:53723 <paceSystemIdentifier>`
 
 2) Once you have `Paraview5.11.0` open on your machine, select `file -> Connect..` to open the remote connection dialogue box.
