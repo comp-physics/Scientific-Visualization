@@ -19,6 +19,8 @@ Here's an example visualization of inviscid flow over an airfoil from a simulati
 
 [Creating an Animation](Tutorials/creating-an-annimation.md)
 
+[FFMPEG Cheat Sheet](Tutorials/FFMPEG-cheat-sheet.md)
+
 ### Remote Visualization
 
 [Interactive Visualization on Phoenix](Tutorials/interactive-visualization-on-Phoenix.md)

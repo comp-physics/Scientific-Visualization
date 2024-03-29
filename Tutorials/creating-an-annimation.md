@@ -67,4 +67,4 @@ The inputs are:
 
 - `-pix_format` specifies the pixel format
 
-For additional details on the basics of FFMPEG, see the FFMPEG Cheat Sheet tab [Here](https://benwilfong.com)
+For additional details on the basics of FFMPEG, see the [FFMPEG Cheat Sheet](FFMPEG-cheat-sheet.md).
