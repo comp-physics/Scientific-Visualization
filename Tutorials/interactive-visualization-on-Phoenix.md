@@ -39,51 +39,28 @@ If you updated line 51 of `pace-paraview-server` to reflect a default account, t
 
 - `--mem` specifies the memory per node to request (default is to request all memory)
 
-- `--gres` specifies the GPU resources to request. 
+- `--gres` specifies the GPU resources to request.
 These instructions have only been verified to work with `--gres gpu:V100:2`.
 
 - `--time` specifies the time limit for your job.
 This option is optional and defaults to whatever is set on line 52 of `pace-paraview-server`.
 
-Once you run `./pace-paraview-server <options>`, you will see
+Once you run `./pace-paraview-server <options>`, it'll take a bit to start up. In the meantime, you'll see the below message:
 
 ```
 Submitted batch job <job #>
 Waiting for ParaView server to start. This may take several minutes  ...
 ```
 
-in your terminal.
-Once the job starts, a dialogue containing the following instructions will appear detailing how to connect to the remote server from your local machine.
+When it's done initializing, you should see a dialogue with some recommended next steps numbered 1-4. Below is a slightly altered version of that dialogue:
 
-```
-1) Press SHIFT + ~ then SHIFT + C to open an SSH console (The prompt 'ssh>' should appear on the next line)
-   ***Note: '~' MUST be the first character on the line to be recognized as the escape character, in which case it will not appear on your terminal.***
-   ***If you see the '~' character when you start typing, delete it, hit 'ENTER' and type 'SHIFT' + '~' + 'C' again.***
-2) Type -L 8722:<nodeIdentifier>:53723 and then ENTER
-3) In the ParaView 5.11 desktop client, create the server configuration.  
-   ( screenshots are at https://docs.pace.gatech.edu/slurm-software/paraview/#starting-the-paraview-client-on-your-computer )
-   Set the 'Server Type' to:
-      Client / Server
-   Set the 'Host' to:
-      localhost
-   Set the 'Port' to:
-      8722
-   If you have previously configured the server cs://localhost:8722 in ParaView, 
-   you can re-use it and do not need to create a new configuration.  
-4) When your work is finished, check the Slurm queue (squeue --name=paraview) 
-   and end your ParaView job if it is still active (scancel --name=paraview)
-```
 
-Depending on your local version of openSSH, you may need to add the following to you `/.ssh/config` file for `SHIFT + ~ + C` to work as expected.
+1) Create the appropriate port forwarding for your local ParaView session to connect with.
+* On your local machine, run the following from a terminal where `nodeIdentifier` is the remote node running the ParaView server process (given in the output of the batch script) and `paceSystemIdentifier` is the name of the PACE system (however this is configured with your `.ssh/config`). This terminal session must not be killed for the duration of your ParaView session as it's maintaining the port forwarding.
+    * `ssh -L 8722:<nodeIdentifier>:53723 <paceSystemIdentifier>`
 
-```
-Host *
-  EnableEscapeCommandline yes
-```
-
-## Step 4 - Connecting from your Local Machine
-Once you have `Paraview5.11.0` open on your machine, select `file -> Connect..` to open the remote connection dialogue box.
-If you've already set up the pace connection, simply double-click the existing configuration.
-If you have not yet set up the pace connection, click `Add Server`. 
+2) Once you have `Paraview5.11.0` open on your machine, select `file -> Connect..` to open the remote connection dialogue box.
+* If you've already set up the pace connection, simply double-click the existing configuration.
+* If you have not yet set up the pace connection, click `Add Server`.
 This will bring up a new dialogue box where you can specify a configuration name and set the `Port` to 8722.
 Once this is done, click `configure` and then `save` on the next dialogue box.
