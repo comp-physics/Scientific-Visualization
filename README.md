@@ -25,6 +25,8 @@ Here's an example visualization of inviscid flow over an airfoil from a simulati
 
 [Interactive Visualization on Phoenix](Tutorials/interactive-visualization-on-Phoenix.md)
 
+[General Interactive Visualization](Tutorials/general-interactive-visualization.md)
+
 ### Paraview  Filters
 
 [Contours/Isosurfaces](Tutorials/contours.md)
