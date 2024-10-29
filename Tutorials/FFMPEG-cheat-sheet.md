@@ -11,7 +11,7 @@ ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p
 The inputs are:
 * `-r` is the framerate
 * `-crf` is the quality, lower means better quality
-* `-S` (optional) video resolution in pixes
+* `-S` (optional) video resolution in pixels
 * `-pix_fmt` specifies the pixel format
 
 ## Playing one video after another
@@ -43,7 +43,7 @@ ffmpeg -i input0 -i input1 -i input2 -i input3 -filter_complex "[0:v][1:v][2:v][
 ```
 
 ## Dealing with an odd number of pixels
-Adding `-vf "pad=ceil(iw/2)*2:ceil(ih/2)*2"` to your FFMPEG command as shown below allows you to create a video from PNGs that are not an even number of pixels in height and/or width.
+Adding `-vf "pad=ceil(iw/2)*2:ceil(ih/2)*2"` to your FFMPEG command as shown below allows you to create a video from images that are not an even number of pixels in height and/or width.
 ```
 ffmpeg -r 30 -f image2 -i pic.%04d.png -vcodec libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -crf 25  -pix_fmt yuv420p test.mp4
 ```
