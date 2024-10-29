@@ -2,6 +2,8 @@
 This tutorial outlines how to perform interactive remove visualization on GATechs Phoenix cluster.
 Using remote visualization allows for the visualization of much larger simulations interactively, without the need for Paraview's batch mode
 
+Note: Do not use VSCode terminals for the following steps. Use a bare, 'system' terminal instead as some connection oddities have been seen when using remote VSCode terminals for visualization setup.
+
 ## Step 1 - Setting up your Environment
 Begin by downloading the .zip file here (https://gatech.box.com/s/1diud4lgequvuie5fg2ac6hcvoelndu5).
 This file contains two things
